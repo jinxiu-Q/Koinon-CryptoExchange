@@ -1,4 +1,4 @@
-# CryptoExchange-Koinon
+# Koinon-CryptoExchange
 这是一套成熟的交易所系统，后端语言为Java，前端语言为uniapp，一站式安装
 系统仅供学习使用，如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【koinon888】
 截图如下
@@ -42,31 +42,31 @@
 - 提供撮合交易服务，场外交易不需要部署
 - 依赖服务：mysql,mongodb,kafka
 
-10. exchange-api
+6. exchange-api
 - 提供币币交易接口，没有币币交易的项目可以不部署
 - 依赖服务：mysql,redis,mongodb,kafka
 
-11. kline-robot
+7. kline-robot
 - K线机器人（获取历史K线）
 - 依赖服务：mysql,redis,mongodb,kafka,cloud
 
-12. market
+8. market
 - 提供币种价格、k线、实时成交等接口服务，场外交易不需要部署
 - 依赖服务：mysql,redis,mongodb,kafka,cloud
 
-12. kline-robot
+9. kline-robot
 - K线机器人（获取历史K线）
 - 依赖服务：mysql,redis,mongodb,kafka,cloud
 
-14. ucenter-api
+10. ucenter-api
 - 提供用户相关的接口（如登录、注册、资产列表）,该模块为基础为基础模块，必须部署
 - 依赖服务：mysql,kafka,redis,mongodb,短信接口，邮箱账号
 
-13. otc-api
+11. otc-api
 - 提供场外交易功能接口，没有场外交易的可以不部署
 - 依赖服务：mysql,redis,mongodb,短信接口
 
-15. wallet
+12. wallet
 - 提供充币、提币、获取地址等钱包服务，为基础模块，必须部署
 - 依赖服务：mysql,mongodb,kafka,cloud
 
@@ -122,7 +122,7 @@
 
 ### 提问和建议
 - 使用Issuse，我们会及时跟进解答。
-- 联系：
+- 联系：Telegram : @koinon888
 
 
 注意事项：
