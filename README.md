@@ -1,6 +1,6 @@
 # CryptoExchange-Koinon
 这是一套成熟的交易所系统，后端语言为Java，前端语言为uniapp，一站式安装
-系统仅供学习使用，如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【kraken8688】
+系统仅供学习使用，如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【koinon888】
 截图如下
 
 ![16](https://user-images.githubusercontent.com/75057109/217417378-0cabc65f-b5a6-49b2-9b36-3e1fa780fc09.png)
@@ -38,23 +38,7 @@
 - 提供SpringCloud微服务注册中心功能，为基础模块，必须部署
 - 依赖服务：无
 
-5. contract-coin-swap-api
-- 提供币本位合约币种价格、K线、盘口消息订阅、实时成交等接口服务
-- 依赖服务：mysql,redis,mongodb,kafka,cloud
-
-6. contract-option-api
-- 提供期权合约币种价格、K线、盘口消息订阅、实时成交等接口服务
-- 依赖服务：mysql,redis,mongodb,kafka,cloud
-
-7. contract-second-api
-- 提供秒合约币种价格、K线、盘口消息订阅、实时成交等接口服务
-- 依赖服务：mysql,redis,mongodb,kafka,cloud
-
-8. contract-swap-api
-- 提供U本位合约币种价格、K线、盘口消息订阅、实时成交等接口服务
-- 依赖服务：mysql,redis,mongodb,kafka,cloud
-
-9. exchange
+5. exchange
 - 提供撮合交易服务，场外交易不需要部署
 - 依赖服务：mysql,mongodb,kafka
 
