@@ -1,5 +1,33 @@
 # Koinon-CryptoExchange
 这是一套成熟的交易所系统，后端语言为Java，前端语言为uniapp，一站式安装
+
+
+安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@koinon888，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
+
+
+1）下载地址：
+
+     http://docker.krakan.org/cryptoexchange.tar
+
+2）服务器要求
+
+     1公网IP，8核CPU，32G内存，100G硬盘,linux系列操作系统
+
+3）先安装Docker
+
+      相关技术网络查找
+
+4）将下载的文件复制到docker宿主机，执行下列三条命令(先确认80端口，文件夹/home/share，可用)
+
+      docker import cryptoExchange.tar cryptoexchange:1.0
+  
+   docker run -itd --name cryptoexchange --privileged=true  --add-host smtp.gmail.com:172.253.62.109 --add-host api.huobi.pro:13.225.63.87 -p 80:8088 --restart=always -v /sys/fs/cgroup:/sys/fs/cgroup -v /home/share:/home/share cryptoexchange:1.0 /usr/sbin/init
+
+      docker start  cryptoexchange
+
+
+
+
 系统仅供学习使用，如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【koinon888】
 截图如下
 
