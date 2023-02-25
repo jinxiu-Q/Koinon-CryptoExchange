@@ -1,0 +1,41 @@
+package com.bizzan.bitrade.entity;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
+import java.util.Date;
+
+@Entity
+@Data
+public class MiningOrderDetail {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    private Long id;
+    
+    @NotNull
+    private Long memberId;
+    
+    /**
+     * 矿机ID
+     */
+    private Long miningOrderId;
+    
+    /**
+     * 挖矿产出
+     */
+    @Column(columnDefinition = "decimal(18,8) comment '矿机当期产出'")
+    private BigDecimal output = BigDecimal.ZERO;
+
+    /**
+     * 矿机产出币种
+     */
+    private String miningUnit;
+    
+    @CreationTimestamp
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
+}

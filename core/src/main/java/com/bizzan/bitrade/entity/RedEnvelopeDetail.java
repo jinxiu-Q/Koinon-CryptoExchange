@@ -1,0 +1,56 @@
+package com.bizzan.bitrade.entity;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
+
+import javax.persistence.*;
+import java.math.BigDecimal;
+import java.util.Date;
+
+@Entity
+@Data
+public class RedEnvelopeDetail {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    private Long id;
+    
+    /**
+     * 领取人ID
+     */
+    private Long memberId;
+
+    /**
+     * 红包ID
+     */
+    private Long envelopeId;
+    
+    /**
+     * 领取数额
+     */
+    @Column(columnDefinition = "decimal(18,8) comment '领取数额'")
+    private BigDecimal amount = BigDecimal.ZERO;
+    
+    /**
+     * 是否机器人（0：不是，> 1：是）
+     */
+    private int cate = 0;
+    
+    /**
+     * 领取时间
+     */
+    @CreationTimestamp
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
+    
+    /**
+     * 领取人的邀请码，此字段仅用于用户领取后保存推广码
+     */
+    @Transient
+    private String promotionCode;
+    
+    /**
+     * 用户领取标识（手机orEmail）
+     */
+    private String userIdentify;
+}

@@ -1,0 +1,9 @@
+<html>
+	<body>
+		<div>
+			<h2>交易机器人异常通知</h2>
+			<br/><br/>
+		    <p>${msg}</p>
+		</div>
+	</body>
+</html>
