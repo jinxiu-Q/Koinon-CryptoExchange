@@ -7,7 +7,7 @@
 
 1）下载地址：
 
-     http://docker.krakan.org/cryptoexchange.tar
+   <image src="http://www.koinon.me/static/img/appdownload.ec7cf68.png">
 
 2）服务器要求
 
