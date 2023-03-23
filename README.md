@@ -5,32 +5,32 @@ The backend use Java, the frontend use uniapp, and it can be installed by few st
 
 
 安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@koinon888，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
-Market data and K-line are automatically obtained.
-Automatic deposit upon receipt, automatic withdrawal limit can be set by yourself.（Node usage is required）
-Contact Telegram: @koinon888.
+<br>Market data and K-line are automatically obtained.<br>
+<br>Automatic deposit upon receipt, automatic withdrawal limit can be set by yourself.（Node usage is required）
+Contact Telegram: @koinon888.<br>
 
 
 1）下载地址/Download link：
 
    <image src="http://www.koinon.me/static/img/appdownload.ec7cf68.png">
    
-   若不可用请联系获取，Telegram: @koinon888
-   If can't download it, plz contact telegram: @koinon888
+  <br> 若不可用请联系获取，Telegram: @koinon888<br>
+  <br> If can't download it, plz contact telegram: @koinon888<br>
    
 
 2）服务器要求/Server requirements.
 
-     1公网IP，8核CPU，32G内存，100G硬盘,linux系列操作系统
-     1 public IP address, 8-core CPU, 32GB RAM, 100GB hard drive, Linux-based operating system.
+     <br>1公网IP，8核CPU，32G内存，100G硬盘,linux系列操作系统<br>
+     <br>1 public IP address, 8-core CPU, 32GB RAM, 100GB hard drive, Linux-based operating system.<br>
      
 3）安装步骤/Installation steps
 
 1.先安装Docker(相关技术网络查找)
-Installing Docker
+<br>Installing Docker<br>
 
 
 2.将下载的文件复制到docker宿主机，执行下列三条命令(先确认80端口，文件夹/home/share，可用)
-Copy the downloaded files to the Docker host, and execute the following three commands (make sure that port 80, directory /home/share are available).
+<br>Copy the downloaded files to the Docker host, and execute the following three commands (make sure that port 80, directory /home/share are available).<br>
 
 	docker import cryptoExchange.tar cryptoexchange:1.0
   
