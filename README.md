@@ -20,8 +20,8 @@ Contact Telegram: @koinon888.<br>
 
 2）服务器要求/Server requirements.
 
-     <br>1公网IP，8核CPU，32G内存，100G硬盘,linux系列操作系统<br>
-     <br>1 public IP address, 8-core CPU, 32GB RAM, 100GB hard drive, Linux-based operating system.<br>
+	1公网IP，8核CPU，32G内存，100G硬盘,linux系列操作系统
+	1 public IP address, 8-core CPU, 32GB RAM, 100GB hard drive, Linux-based operating system.
      
 3）安装步骤/Installation steps
 
