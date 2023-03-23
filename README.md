@@ -1,35 +1,52 @@
 # Koinon-CryptoExchange
 这是一套成熟的交易所系统，后端语言为Java，前端语言为uniapp，一站式安装
+This is a mature crypto exchange platform/system.
+The backend use Java, the frontend use uniapp, and it can be installed by few step.
 
 
 安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@koinon888，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
+Market data and K-line are automatically obtained.
+Automatic deposit upon receipt, automatic withdrawal limit can be set by yourself.（Node usage is required）
+Contact Telegram: @koinon888.
 
 
-1）下载地址：
+1）下载地址/Download link：
 
    <image src="http://www.koinon.me/static/img/appdownload.ec7cf68.png">
+   
+   若不可用请联系获取，Telegram: @koinon888
+   If can't download it, plz contact telegram: @koinon888
+   
 
-2）服务器要求
+2）服务器要求/Server requirements.
 
      1公网IP，8核CPU，32G内存，100G硬盘,linux系列操作系统
+     1 public IP address, 8-core CPU, 32GB RAM, 100GB hard drive, Linux-based operating system.
+     
+3）安装步骤/Installation steps
 
-3）先安装Docker
+1.先安装Docker(相关技术网络查找)
+Installing Docker
 
-      相关技术网络查找
 
-4）将下载的文件复制到docker宿主机，执行下列三条命令(先确认80端口，文件夹/home/share，可用)
+2.将下载的文件复制到docker宿主机，执行下列三条命令(先确认80端口，文件夹/home/share，可用)
+Copy the downloaded files to the Docker host, and execute the following three commands (make sure that port 80, directory /home/share are available).
 
-      docker import cryptoExchange.tar cryptoexchange:1.0
+	docker import cryptoExchange.tar cryptoexchange:1.0
   
-   docker run -itd --name cryptoexchange --privileged=true  --add-host smtp.gmail.com:172.253.62.109 --add-host api.huobi.pro:13.225.63.87 -p 80:8088 --restart=always -v /sys/fs/cgroup:/sys/fs/cgroup -v /home/share:/home/share cryptoexchange:1.0 /usr/sbin/init
+	docker run -itd --name cryptoexchange --privileged=true  --add-host smtp.gmail.com:172.253.62.109 --add-host api.huobi.pro:13.225.63.87 -p 80:8088 --restart=always -v /sys/fs/cgroup:/sys/fs/cgroup -v /home/share:/home/share cryptoexchange:1.0 /usr/sbin/init
 
-      docker start  cryptoexchange
+	docker start  cryptoexchange
 
 
 
 
 如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【koinon888】
 截图如下
+If you have any questions, you can contact me, telegram 【koinon888】.
+The mobile interface is as shown in the picture. The full set of functions has been implemented, including buy and sell trading, automatic recharge, automatic withdrawal, registration email access, OTC trading, etc. The application will be provided later. 
+If you need to build the system, please contact 【koinon888】. The screenshot is as follows
+
 
 ![16](https://user-images.githubusercontent.com/75057109/217417378-0cabc65f-b5a6-49b2-9b36-3e1fa780fc09.png)
 ![12](https://user-images.githubusercontent.com/75057109/217417447-765e3e6b-22b6-48de-81f9-0ca1848883ef.png)
