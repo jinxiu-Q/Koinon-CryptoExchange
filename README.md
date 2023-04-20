@@ -4,17 +4,17 @@
 The backend use Java, the frontend use uniapp, and it can be installed by few step.<br>
 
 
-安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@koinon888，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
+安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@dev8688，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
 <br>Market data and K-line are automatically obtained.
 Automatic deposit upon receipt, automatic withdrawal limit can be set by yourself.（Node usage is required）
-Contact Telegram: @koinon888.<br>
+Contact Telegram: @dev8688 <br>
 
 
 1）下载地址/Download link：
 
    <image src="http://www.koinon.me/static/img/appdownload.ec7cf68.png">
    
-  <br> 若不可用请联系获取，Telegram: @koinon888<br>
+  <br> 若不可用请联系获取，Telegram: @dev8688<br>
   <br> If can't download it, plz contact telegram: @koinon888<br>
    
 
@@ -167,7 +167,7 @@ If you need to build the system, please contact 【koinon888】. The screenshot 
 
 ### 提问和建议
 - 使用Issuse，我们会及时跟进解答。
-- 联系：Telegram : @koinon888
+- 联系：Telegram : @dev8688
 
 
 注意事项：
