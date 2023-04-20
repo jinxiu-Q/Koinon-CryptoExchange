@@ -14,8 +14,8 @@ Contact Telegram: @dev8688 <br>
 
    <image src="http://www.koinon.me/static/img/appdownload.ec7cf68.png">
    
-  <br> 若不可用请联系获取，Telegram: @dev8688<br>
-  <br> If can't download it, plz contact telegram: @koinon888<br>
+  <br> 若不可用请联系获取，Telegram: @dev8688 <br>
+  <br> If can't download it, plz contact telegram: @dev8688 <br>
    
 
 2）服务器要求/Server requirements.
