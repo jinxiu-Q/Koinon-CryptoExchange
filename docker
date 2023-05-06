@@ -1,0 +1,46 @@
+一、	使用docker文件安装
+
+
+1.	宿主机安装centos7
+2.	建立/home/share目录，便于Docker内容器交换文件
+3.	运行以下命令，将tar文件导入到docker内，生成镜像
+    docker import cryptoExchange.tar cryptoexchange:1.0
+4.	运行以下命令，将镜像生成容器运行
+    docker run -itd --name cryptoexchange --privileged=true  --add-host smtp.gmail.com:172.253.62.109 --add-host api.huobi.pro:13.225.63.87 -p 80:80 --restart=always -v /sys/fs/cgroup:/sys/fs/cgroup -v /home/share:/home/share cryptoexchange:1.0 /usr/sbin/init
+    说明：
+        A:如使用国外服务器去掉上述命令中两段--add-host，国内服务器需要使用代理，并配加这两段指定域名对应的IP
+        B:如果需要联调服务器端源码，请加入以下端口，
+            -p 3306:3306 (Mysql数据库)
+            -p 27017:27017 (Mongod数据库)
+            -p 9902:9902 (Kafka消息机制)
+            -p 8761:8761 (微服务注册中心)
+            -p 6379:6379 (redis)
+5.	运行以下命令，运行容器
+	docker start  cryptoexchange
+6.	可通近对应的80端口，访问到交易所的WEB版，
+
+
+二、	服务器端源码调试
+
+
+7.	使用开发工具Idea打开源码，配置JDK为Java，1.8
+8.	修改Conf下文件，使联接到docker对应的服务器端口
+9.	编译生成，jar，
+10.	Jar可替换docker容器内/usr/local/mainserver/下对应的jar文件
+
+
+三、	去除docker，自行安装
+
+
+11.	导出docker中的mysql数据库到sql文件中
+12.	在Centos7.0服务器上安装
+•	MySQL 5.7.16，需要初始上述数据
+•	Redis 6.0
+•	Mongodb 4.0
+•	kafka_2.11-2.2.1
+•	Zookeeper
+•	nginx-1.19.0
+•	JDK 1.8
+13.	运行启动
+14.	将编译生成的Jar上传
+15.	先注册中心，再交易引擎exchange，第三市场market，其它模块按需要启动
