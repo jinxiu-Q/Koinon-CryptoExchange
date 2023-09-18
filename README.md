@@ -45,7 +45,7 @@ Contact Telegram: @dev8688 <br>
 截图如下
 <br>If you have any questions, you can contact me, telegram 【dev8688】.
 The mobile interface is as shown in the picture. The full set of functions has been implemented, including buy and sell trading, automatic recharge, automatic withdrawal, registration email access, OTC trading, etc. The application will be provided later. 
-If you need to build the system, please contact 【dev8688】. The screenshot is as follows<br>
+If you need to build the system, please contact telegram:【dev8688】. The screenshot is as follows<br>
 
 
 ![16](https://user-images.githubusercontent.com/75057109/217417378-0cabc65f-b5a6-49b2-9b36-3e1fa780fc09.png)
