@@ -1,5 +1,5 @@
 # Koinon-CryptoExchange
-这是一套成熟的交易所系统，后端语言为Java，前端语言为uniapp，一站式安装
+这是一套成熟的交易所系统，后端语言为Java，前端语言为uniapp，可打包多个端，使用docker一站式安装
 <br>This is a mature crypto exchange platform/system.
 The backend use Java, the frontend use uniapp, and it can be installed by few step.<br>
 
