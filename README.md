@@ -4,18 +4,18 @@
 The backend use Java, the frontend use uniapp, and it can be installed by few step.<br>
 
 
-安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@dev8688，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
+安装简单，行情、K线自动获取，免费安排节点同步（入账自动到账，出账可配自动出账限额），联系飞机：@crypto3306，提供你服务器IP地址，即安排手机端给你测试，后续直接可商用
 <br>Market data and K-line are automatically obtained.
 Automatic deposit upon receipt, automatic withdrawal limit can be set by yourself.（Node usage is required）
-Contact Telegram: @dev8688 <br>
+Contact Telegram: @crypto3306 <br>
 
 
 1）下载地址/Download link：
 
    <image src="http://www.koinon.me/static/img/appdownload.ec7cf68.png">
    
-  <br> 若不可用请联系获取，Telegram: @dev8688 <br>
-  <br> If can't download it, plz contact telegram: @dev8688 <br>
+  <br> 若不可用请联系获取，Telegram: @crypto3306 <br>
+  <br> If can't download it, plz contact telegram: @crypto3306 <br>
    
 
 2）服务器要求/Server requirements.
@@ -43,9 +43,9 @@ Contact Telegram: @dev8688 <br>
 
 如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易、秒合约、质押挖矿等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【dev8688】
 截图如下
-<br>If you have any questions, you can contact me, telegram 【dev8688】.
+<br>If you have any questions, you can contact me, telegram 【crypto3306】.
 The mobile interface is as shown in the picture. The full set of functions has been implemented, including buy and sell trading, automatic recharge, automatic withdrawal, registration email access, OTC trading, etc. The application will be provided later. 
-If you need to build the system, please contact telegram:【dev8688】. The screenshot is as follows<br>
+If you need to build the system, please contact telegram:【crypto3306】. The screenshot is as follows<br>
 
 
 ![16](https://user-images.githubusercontent.com/75057109/217417378-0cabc65f-b5a6-49b2-9b36-3e1fa780fc09.png)
@@ -167,7 +167,7 @@ If you need to build the system, please contact telegram:【dev8688】. The scre
 
 ### 提问和建议
 - 使用Issuse，我们会及时跟进解答。
-- 联系：Telegram : @dev8688
+- 联系：Telegram : @crypto3306
 
 
 注意事项：
