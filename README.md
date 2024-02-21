@@ -41,7 +41,7 @@ Contact Telegram: @crypto3306 <br>
 
 
 
-如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易、秒合约、质押挖矿等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【dev8688】
+如有疑问可联系 移动端界面如图，全套功能已实现，包括：买卖交易、自动充值、自动提现、注册邮件接入、otc交易、秒合约、质押挖矿等。 将于稍后提供应用程序 如需交易所搭建演示请联系飞机：【crypto3306】
 截图如下
 <br>If you have any questions, you can contact me, telegram 【crypto3306】.
 The mobile interface is as shown in the picture. The full set of functions has been implemented, including buy and sell trading, automatic recharge, automatic withdrawal, registration email access, OTC trading, etc. The application will be provided later. 
